@@ -5,7 +5,7 @@ public class MeuSistema {
     Produto produto = new Produto();
 
     
-    public void cadastrarProdutoSimples(String nome, double precoVenda,
+    public void cadastrarProdutoSimples(String nome, int precoVenda,
             String unidade, int quantidadeEmEstoque) {
         
         produto.setNome(nome);
