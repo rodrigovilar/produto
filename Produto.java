@@ -1,7 +1,7 @@
 public class Produto {
 
     private String nome;
-    private double precoVenda;
+    private int precoVenda;
     private String unidade;
     private int quantidadeEmEstoque;
 
@@ -13,11 +13,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public double getPrecoVenda() {
+    public int getPrecoVenda() {
         return precoVenda;
     }
 
-    public void setPrecoVenda(double precoVenda) {
+    public void setPrecoVenda(int precoVenda) {
         this.precoVenda = precoVenda;
     }
 
